@@ -1,7 +1,7 @@
 import React from "react";
 import { Film, Heart } from "lucide-react";
 
-const MADE_BY = "KU Tech Club"; // ← Change this to your name
+const MADE_BY = "FYIMP 2024 BATCH";
 
 const Footer: React.FC = () => {
     return (
@@ -123,7 +123,16 @@ const Footer: React.FC = () => {
                     >
                         Website made with{" "}
                         <Heart size={11} style={{ color: "#f72585" }} fill="#f72585" /> by{" "}
-                        <strong style={{ color: "#888" }}>{MADE_BY}</strong>
+                        <a
+                            href="https://www.instagram.com/fyimp.cs/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "#f72585", textDecoration: "none", fontWeight: 700 }}
+                            onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.textDecoration = "underline")}
+                            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.textDecoration = "none")}
+                        >
+                            {MADE_BY}
+                        </a>
                     </span>
                 </p>
             </div>
