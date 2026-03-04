@@ -33,7 +33,6 @@ export const films: Film[] = [
         synopsis: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
         trailerLink: "https://www.youtube.com/watch?v=EXeTwQWrcwY",
     },
-    ,
     {
         id: 3,
         title: "Spirited Away",

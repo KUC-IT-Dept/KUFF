@@ -1,24 +1,35 @@
 import { useRef, useEffect } from 'react';
 import './Squares.css';
 
+interface SquaresProps {
+    direction?: 'right' | 'left' | 'up' | 'down' | 'diagonal';
+    speed?: number;
+    borderColor?: string;
+    squareSize?: number;
+    hoverFillColor?: string;
+    className?: string;
+}
+
 const Squares = ({
     direction = 'right',
     speed = 1,
     borderColor = '#999',
     squareSize = 40,
     hoverFillColor = '#222',
-    className = ''
-}) => {
-    const canvasRef = useRef(null);
-    const requestRef = useRef(null);
-    const numSquaresX = useRef();
-    const numSquaresY = useRef();
+    className = '',
+}: SquaresProps) => {
+    const canvasRef = useRef<HTMLCanvasElement>(null);
+    const requestRef = useRef<number>(0);
+    const numSquaresX = useRef<number>(0);
+    const numSquaresY = useRef<number>(0);
     const gridOffset = useRef({ x: 0, y: 0 });
-    const hoveredSquare = useRef(null);
+    const hoveredSquare = useRef<{ x: number; y: number } | null>(null);
 
     useEffect(() => {
         const canvas = canvasRef.current;
+        if (!canvas) return;
         const ctx = canvas.getContext('2d');
+        if (!ctx) return;
 
         const resizeCanvas = () => {
             canvas.width = canvas.offsetWidth;
@@ -96,7 +107,7 @@ const Squares = ({
             requestRef.current = requestAnimationFrame(updateAnimation);
         };
 
-        const handleMouseMove = event => {
+        const handleMouseMove = (event: MouseEvent) => {
             const rect = canvas.getBoundingClientRect();
             const mouseX = event.clientX - rect.left;
             const mouseY = event.clientY - rect.top;
