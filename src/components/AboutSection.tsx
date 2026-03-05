@@ -1,14 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, Instagram, Twitter, Youtube } from "lucide-react";
+import { Mail, Phone, Instagram,  } from "lucide-react";
 import CircularText from "./ui/CircularText";
 
 const CONTACT_LINKS = [
-    { icon: Mail, label: "kuff@kannuruniversity.ac.in", href: "mailto:kuff@kannuruniversity.ac.in" },
-    { icon: Phone, label: "+91 97468 00000", href: "tel:+919746800000" },
-    { icon: Instagram, label: "@kuff_official", href: "https://instagram.com/kuff_official" },
-    { icon: Twitter, label: "@kuff2026", href: "https://twitter.com/kuff2026" },
-    { icon: Youtube, label: "KUFF Official", href: "https://youtube.com" },
+    { icon: Mail, label: "Unionchairman@kannuruniv.ac.in", href: "mailto:Unionchairman@kannuruniv.ac.in" },
+    { icon: Phone, label: "+91  7994314469", href: "tel:+917994314469" },
+    { icon: Instagram, label: "@kannur_university_union24_25", href: "https://www.instagram.com/kannur_university_union24_25" }, 
 ];
 
 const AboutSection: React.FC = () => {
@@ -94,7 +92,7 @@ const AboutSection: React.FC = () => {
                         }}
                     >
                         The Kannur University Union is the apex student body representing over
-                        15,000 students across all campuses. We believe in the transformative
+                        1000 students across all campuses. We believe in the transformative
                         power of art and cinema to provoke thought, spark empathy, and build
                         community.
                     </p>
@@ -108,8 +106,7 @@ const AboutSection: React.FC = () => {
                         }}
                     >
                         KUFF — Kannur University Film Festival — is our flagship cultural
-                        initiative, curated by the Student Cultural Committee with the support
-                        of the Department of Media Studies. The festival celebrates independent
+                        initiative, curated by the Student Union . The festival celebrates independent
                         cinema from student filmmakers and emerging directors across Kerala and
                         beyond.
                     </p>
