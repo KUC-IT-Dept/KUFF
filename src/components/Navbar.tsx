@@ -6,6 +6,7 @@ const NAV_LINKS = [
     { label: "Home", href: "#hero" },
     { label: "Films", href: "#films" },
     { label: "About", href: "#about" },
+    { label: "Register", href: "#register" },
 ];
 
 const Navbar: React.FC = () => {
@@ -134,8 +135,8 @@ const Navbar: React.FC = () => {
                     {/* CTA + Hamburger */}
                     <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                         <a
-                            href="#hero"
-                            onClick={(e) => handleNavClick(e, "#hero")}
+                            href="#register"
+                            onClick={(e) => handleNavClick(e, "#register")}
                             style={{
                                 display: "none",
                                 padding: "0.4rem 1rem",

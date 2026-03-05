@@ -1,12 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, Instagram,  } from "lucide-react";
+import { Mail, Phone, Instagram, MapPin } from "lucide-react";
 import CircularText from "./ui/CircularText";
 
 const CONTACT_LINKS = [
     { icon: Mail, label: "Unionchairman@kannuruniv.ac.in", href: "mailto:Unionchairman@kannuruniv.ac.in" },
     { icon: Phone, label: "+91  7994314469", href: "tel:+917994314469" },
-    { icon: Instagram, label: "@kannur_university_union24_25", href: "https://www.instagram.com/kannur_university_union24_25" }, 
+    { icon: Instagram, label: "@kannur_university_union24_25", href: "https://www.instagram.com/kannur_university_union24_25" },
+    { icon: MapPin, label: "Kannur University Mangattuparamba Campus", href: "https://maps.app.goo.gl/QtsMJJnySuHvqbfy6" }
 ];
 
 const AboutSection: React.FC = () => {
@@ -91,11 +92,8 @@ const AboutSection: React.FC = () => {
                             marginBottom: "1.25rem",
                         }}
                     >
-                        The Kannur University Union is the apex student body representing over
-                        1000 students across all campuses. We believe in the transformative
-                        power of art and cinema to provoke thought, spark empathy, and build
-                        community.
-                    </p>
+
+                        Kannur University Film Festival (KUFF) is a vibrant celebration of cinema and cultural expression, offering a dynamic platform for students, independent filmmakers, and enthusiasts to showcase their talent. The festival features short films, documentaries, and feature presentations, encouraging innovative storytelling and critical thinking while fostering meaningful discussions about cinema as both art and social medium.                    </p>
                     <p
                         style={{
                             fontFamily: "Inter, sans-serif",
@@ -104,11 +102,7 @@ const AboutSection: React.FC = () => {
                             lineHeight: 1.8,
                             marginBottom: "2rem",
                         }}
-                    >
-                        KUFF — Kannur University Film Festival — is our flagship cultural
-                        initiative, curated by the Student Union . The festival celebrates independent
-                        cinema from student filmmakers and emerging directors across Kerala and
-                        beyond.
+                    >Beyond screenings, KUFF includes workshops, panel discussions, and interactive sessions with filmmakers and media professionals, giving students practical insights into the world of cinema. Rooted in Kerala’s rich cultural heritage, the festival promotes artistic excellence, nurtures emerging talent, and strengthens film culture within the academic community, standing as a true celebration of creativity and collaboration. 🎬
                     </p>
 
                     {/* Contact links */}

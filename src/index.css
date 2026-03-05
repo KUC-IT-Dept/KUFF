@@ -84,3 +84,12 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-track { background: var(--bg-deep); }
 ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--neon-pink); }
+
+/* Registration form input focus */
+form input[type="text"]:focus,
+form input[type="tel"]:focus {
+  border-color: var(--neon-pink) !important;
+  box-shadow: 0 0 0 3px rgba(247, 37, 133, 0.15);
+  outline: none;
+}
+

@@ -115,9 +115,7 @@ const HeroSection: React.FC = () => {
         };
     }, []);
 
-    const handleRegister = () => {
-        window.open("mailto:kuff@kannuruniversity.ac.in?subject=KUFF 2026 Registration", "_blank");
-    };
+
 
     return (
         <section
@@ -278,7 +276,7 @@ const HeroSection: React.FC = () => {
                     transition={{ duration: 0.5, delay: 0.4 }}
                     whileHover={{ scale: 1.04, boxShadow: "0 0 30px rgba(247,37,133,0.55)" }}
                     whileTap={{ scale: 0.97 }}
-                    onClick={handleRegister}
+                    onClick={() => document.querySelector("#register")?.scrollIntoView({ behavior: "smooth" })}
                     style={{
                         padding: "0.85rem 2.5rem",
                         background: "#f72585",
