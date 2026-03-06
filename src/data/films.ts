@@ -9,93 +9,220 @@ export interface Film {
     synopsis: string;
     trailerLink: string;
 }
-
 export const films: Film[] = [
     {
         id: 1,
-        title: "Interstellar",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
-        schedule: "Mar 11 | 10:00 AM",
-        location: "Main Auditorium",
-        runtime: "2h 49m",
-        director: "Christopher Nolan",
-        synopsis: "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
-        trailerLink: "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+        title: "The Voice of Hind Rajab",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/b/b5/The_Voice_of_Hind_Rajab_film_poster.jpg",
+        schedule: "Day 1 | Show 1",
+        location: "Screen 1",
+        runtime: "89 min",
+        director: "Kaouther Ben Hania",
+        synopsis: "A hybrid documentary-drama reconstructing the final emergency call of a young girl trapped during the Gaza conflict. Red Crescent dispatchers race against time to locate and rescue her while navigating chaos, bureaucracy and the realities of war.",
+        trailerLink: "https://youtu.be/hrssPpqv6vc?si=-2StoCox_wrApwo6"
     },
+
     {
         id: 2,
-        title: "The Dark Knight",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
-        schedule: "Mar 11 | 02:00 PM",
-        location: "Screen 1",
-        runtime: "2h 32m",
-        director: "Christopher Nolan",
-        synopsis: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-        trailerLink: "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+        title: "One Battle After Another",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/5/5d/One_Battle_After_Another.jpg",
+        schedule: "Day 1 | Show 1",
+        location: "Screen 2",
+        runtime: "162 min",
+        director: "Paul Thomas Anderson",
+        synopsis: "When their enemy resurfaces after 16 years, a group of ex-revolutionaries reunite to rescue the daughter of one of their own.",
+        trailerLink: "https://youtu.be/feOQFKv2Lw4?si=EYEPIGqeUGClf2tQ"
     },
+
     {
         id: 3,
-        title: "Spirited Away",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
-        schedule: "Mar 11 | 04:00 PM",
-        location: "Screen 2",
-        runtime: "2h 5m",
-        director: "Hayao Miyazaki",
-        synopsis: "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, where humans are changed into beasts.",
-        trailerLink: "https://www.youtube.com/watch?v=ByXuk9QqQkk",
+        title: "All We Imagine as Light",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/1/1c/All_We_Imagine_as_Light_film_poster.jpg",
+        schedule: "Day 1 | Show 1",
+        location: "Screen 3",
+        runtime: "115 min",
+        director: "Payal Kapadia",
+        synopsis: "Set in Mumbai, the film follows the lives of two nurses whose friendship deepens as they navigate love, loneliness and economic struggles in the city. A sudden trip to a coastal village becomes a transformative journey of self-reflection and freedom.",
+        trailerLink: "https://youtu.be/2mgQcpmYr_A?si=Yu3K_mttHiWvJw1B"
     },
+
     {
         id: 4,
-        title: "Inception",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
-        schedule: "Mar 12 | 10:30 AM",
-        location: "Main Auditorium",
-        runtime: "2h 28m",
-        director: "Christopher Nolan",
-        synopsis: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project.",
-        trailerLink: "https://www.youtube.com/watch?v=YoHD9XEInc0",
+        title: "Sirai",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/4/4d/Sirai_%282025_film%29.jpg",
+        schedule: "Day 1 | Show 2",
+        location: "Screen 1",
+        runtime: "124 min",
+        director: "Suresh Rajakumari",
+        synopsis: "A gripping Tamil crime drama that explores the consequences of injustice within the prison system. When a young man is drawn into a dangerous chain of events, the line between guilt and innocence becomes increasingly blurred.",
+        trailerLink: "https://youtu.be/31-NtcyZMzA?si=Lj6iiiydkViURUfV"
     },
+
     {
         id: 5,
-        title: "Whiplash",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
-        schedule: "Mar 12 | 02:30 PM",
+        title: "Sinners",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/5/5f/Sinners_%282025_film%29_poster.jpg",
+        schedule: "Day 1 | Show 2",
         location: "Screen 2",
-        runtime: "1h 46m",
-        director: "Damien Chazelle",
-        synopsis: "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
-        trailerLink: "https://www.youtube.com/watch?v=7d_jQycdQGo",
+        runtime: "138 min",
+        director: "Ryan Coogler",
+        synopsis: "A supernatural thriller set in the American South where long-buried secrets emerge within a community haunted by its past. As violence and redemption collide, a group of characters confront the sins that shaped their lives.",
+        trailerLink: "https://youtu.be/bKGxHflevuk?si=TPzNGL4Wsu1l9DTQ"
     },
+
     {
         id: 6,
-        title: "Spider-Man: Into the Spider-Verse",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/f/fa/Spider-Man_Into_the_Spider-Verse_poster.png",
-        schedule: "Mar 12 | 06:00 PM",
-        location: "Open Air Theatre",
-        runtime: "1h 57m",
-        director: "Bob Persichetti, Peter Ramsey, Rodney Rothman",
-        synopsis: "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
-        trailerLink: "https://www.youtube.com/watch?v=tg52up16eq0",
-    }, {
-        id: 7,
-        title: "Tenet",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/1/14/Tenet_movie_poster.jpg",
-        schedule: "Mar 11 | 09:00 PM",
-        location: "Main Auditorium",
-        runtime: "2h 30m",
-        director: "Christopher Nolan",
-        synopsis: "Armed with only one word, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
-        trailerLink: "https://www.youtube.com/watch?v=LdOM0x0XDMo",
+        title: "Sorry, Baby",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/5/5c/Sorry%2C_Baby_poster.jpg",
+        schedule: "Day 1 | Show 2",
+        location: "Screen 3",
+        runtime: "114 min",
+        director: "Eva Victor",
+        synopsis: "A darkly comedic drama about a young woman navigating adulthood, relationships and personal trauma. Through awkward encounters and unexpected connections, she learns to rebuild her life and rediscover her voice.",
+        trailerLink: "https://youtu.be/Rc0jgWoZo9w?si=B5TYuU9XiJbPm2QU"
     },
+
+    {
+        id: 7,
+        title: "Hijack 1971",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/8/8e/Hijack_1971.jpg",
+        schedule: "Day 1 | Show 3",
+        location: "Screen 1",
+        runtime: "100 min",
+        director: "Kim Sung-han",
+        synopsis: "Based on a real incident, the film follows the tense events aboard a commercial aircraft that is hijacked during the 1970s. Passengers and crew must confront fear, courage and sacrifice as the situation escalates thousands of feet above ground.",
+        trailerLink: "https://youtu.be/UxyutkXQnvA?si=FpriuhT7oFCZ2CA5"
+    },
+
     {
         id: 8,
-        title: "Shutter Island",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg",
-        schedule: "Mar 12 | 09:00 PM",
-        location: "Screen 1",
-        runtime: "2h 18m",
-        director: "Martin Scorsese",
-        synopsis: "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane, leading him to question his own sanity.",
-        trailerLink: "https://www.youtube.com/watch?v=5iaYLCiq5RM",
+        title: "Marty Supreme",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/b/ba/Marty_Supreme_poster.jpg",
+        schedule: "Day 1 | Show 3",
+        location: "Screen 2",
+        runtime: "150 min",
+        director: "Josh Safdie",
+        synopsis: "A biographical sports drama about a charismatic ping-pong champion whose rise to fame masks personal struggles, ambition and the darker side of competitive success.",
+        trailerLink: "https://youtu.be/s9gSuKaKcqM?si=HZMho0CtveAThx-K"
     },
-];
+
+    {
+        id: 9,
+        title: "Little Forest",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/a/a4/Little_Forest_%28%EB%A6%AC%ED%8B%80_%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%29.jpg",
+        schedule: "Day 1 | Show 3",
+        location: "Screen 3",
+        runtime: "103 min",
+        director: "Yim Soon-rye",
+        synopsis: "A young woman returns to her rural hometown after growing disillusioned with city life. Surrounded by nature and simple home-cooked meals, she reconnects with old friends and gradually rediscovers purpose and happiness.",
+        trailerLink: "https://youtu.be/uKW0YaPUa2Y?si=N-oy5o4Cuar8tofW"
+    },
+
+    {
+        id: 10,
+        title: "Flow",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/2/2d/Flow_movie_poster.jpg",
+        schedule: "Day 2 | Show 1",
+        location: "Screen 1",
+        runtime: "85 min",
+        director: "Gints Zilbalodis",
+        synopsis: "An animated adventure following a lone cat navigating a mysterious world flooded by water. Along the journey it encounters other animals and must cooperate with them to survive the challenges of a changing environment.",
+        trailerLink: "https://youtu.be/82WW9dVbglI?si=9xieCQyl5k9fzq-9"
+    },
+
+    {
+        id: 11,
+        title: "It Was Just an Accident",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/8/84/Un_Simple_Accident_2025.jpeg",
+        schedule: "Day 2 | Show 1",
+        location: "Screen 2",
+        runtime: "104 min",
+        director: "Jafar Panahi",
+        synopsis: "A tense Iranian drama where a seemingly minor accident sets off a chain of moral dilemmas. As the truth slowly unfolds, the characters are forced to confront guilt, responsibility and the consequences of their choices.",
+        trailerLink: "https://youtu.be/nF04v-ze2Yc?si=sC8zCXEDWKMzadTV"
+    },
+
+    {
+        id: 12,
+        title: "Rebel Ridge",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/e/e5/Rebel_Ridge_film_poster.jpg",
+        schedule: "Day 2 | Show 1",
+        location: "Screen 3",
+        runtime: "130 min",
+        director: "Jeremy Saulnier",
+        synopsis: "A former Marine arrives in a small Southern town seeking justice for his cousin, only to uncover a web of corruption within the local police department. As tensions escalate, he must fight to expose the truth and survive.",
+        trailerLink: "https://youtu.be/gF3gZicntIw?si=3vGUiSW86D2Z-3NU"
+    },
+
+    {
+        id: 13,
+        title: "Zootopia 2",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/6/6a/Zootopia_2_%282025_film%29.jpg",
+        schedule: "Day 2 | Show 2",
+        location: "Screen 1",
+        runtime: "108 min",
+        director: "Jared Bush",
+        synopsis: "Officers Judy Hopps and Nick Wilde return for a new mystery that takes them into unexplored districts of Zootopia. Their partnership is tested as they unravel a conspiracy threatening the harmony of the animal metropolis.",
+        trailerLink: "https://youtu.be/BjkIOU5PhyQ?si=RopIKvcWZr2UOW0x"
+    },
+
+    {
+        id: 14,
+        title: "Sirât",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/9/91/Sirat_2025.jpeg",
+        schedule: "Day 2 | Show 2",
+        location: "Screen 2",
+        runtime: "115 min",
+        director: "Oliver Laxe",
+        synopsis: "A spiritual drama exploring grief, memory and redemption through the journey of a man searching for meaning after profound personal loss.",
+        trailerLink: "https://youtu.be/3_9OkHX8ZiA?si=r9VDpq_bi7TVu1oX"
+    },
+
+    {
+        id: 15,
+        title: "T-34",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/0/0e/T-34_%28film%29.jpeg",
+        schedule: "Day 2 | Show 2",
+        location: "Screen 3",
+        runtime: "139 min",
+        director: "Aleksei Sidorov",
+        synopsis: "During World War II, a Soviet tank commander and his crew plan a daring escape from a German prison camp using a captured T-34 tank, turning their flight into an intense armored battle.",
+        trailerLink: "https://youtu.be/D1UDvi5xL9w?si=jBPZdIOJLy6QJYj-"
+    },
+
+    {
+        id: 16,
+        title: "Fantastic Mr. Fox",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/a/af/Fantastic_mr_fox.jpg",
+        schedule: "Day 2 | Show 3",
+        location: "Screen 1",
+        runtime: "87 min",
+        director: "Wes Anderson",
+        synopsis: "After years of quiet family life, a clever fox returns to his old habit of stealing from nearby farms. When the farmers retaliate, Mr. Fox must rally the animal community to outsmart them and protect their homes.",
+        trailerLink: "https://youtu.be/n2igjYFojUo?si=nN3reSinNxQv1bfA"
+    },
+
+    {
+        id: 17,
+        title: "Rental Family",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/c/c1/Rental_Family_poster.jpg",
+        schedule: "Day 2 | Show 3",
+        location: "Screen 2",
+        runtime: "110 min",
+        director: "Hikari",
+        synopsis: "An American actor working in Japan becomes part of a company that rents out actors to pose as friends or family. Through these staged relationships he unexpectedly forms genuine emotional connections.",
+        trailerLink: "https://youtu.be/n0pqP6ClcE8?si=gpfa9-ImwYV_kBWq"
+    },
+
+    {
+        id: 18,
+        title: "Interstellar",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+        schedule: "Day 2 | Show 3",
+        location: "Screen 3",
+        runtime: "169 min",
+        director: "Christopher Nolan",
+        synopsis: "",
+        trailerLink: "https://youtu.be/zSWdZVtXT7E?si=fRsvXRfZPW5wES-U"
+    }
+]
