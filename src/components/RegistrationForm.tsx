@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import qrImage from "../assets/qr.png";
 import { motion, AnimatePresence } from "framer-motion";
 import {
     User,
@@ -21,7 +22,7 @@ interface FormState {
     screenshot: File | null;
 }
 
-const UPI_URL = "upi://pay?pa=aalnavinod@oksbi&pn=KUFF&am=50&cu=INR";
+const UPI_URL = "upi://pay?pa=nandajbabu5@okicici&pn=KUFF&am=50&cu=INR";
 
 const RegistrationForm: React.FC = () => {
     const [form, setForm] = useState<FormState>({
@@ -256,6 +257,13 @@ const RegistrationForm: React.FC = () => {
                         Pay Now — ₹50 via UPI
                     </a>
                     <p style={payHint}>Opens your UPI app (PhonePe, GPay, Paytm…)</p>
+
+                    {/* QR Code */}
+                    <div style={qrWrap}>
+                        <p style={qrOrLabel}>— or scan to pay —</p>
+                        <img src={qrImage} alt="UPI QR Code" style={qrImg} />
+                        <p style={qrCaption}>Scan with any UPI app to pay ₹50</p>
+                    </div>
                 </div>
 
                 {/* Screenshot Upload */}
@@ -440,6 +448,27 @@ const payButton: React.CSSProperties = {
 };
 
 const payHint: React.CSSProperties = { color: "#555", fontSize: "0.75rem", textAlign: "center" };
+
+const qrWrap: React.CSSProperties = {
+    display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem",
+    marginTop: "0.75rem", padding: "1.25rem",
+    border: "1px solid rgba(247,37,133,0.2)", borderRadius: "12px",
+    background: "rgba(247,37,133,0.04)",
+};
+
+const qrOrLabel: React.CSSProperties = {
+    color: "#555", fontSize: "0.72rem", letterSpacing: "0.1em",
+    textTransform: "uppercase", fontFamily: "'Space Grotesk', sans-serif",
+};
+
+const qrImg: React.CSSProperties = {
+    width: "180px", height: "180px", objectFit: "contain",
+    borderRadius: "10px", background: "#fff", padding: "8px",
+};
+
+const qrCaption: React.CSSProperties = {
+    color: "#888", fontSize: "0.75rem", fontFamily: "'Space Grotesk', sans-serif",
+};
 
 const uploadZone = (hasError: boolean): React.CSSProperties => ({
     display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
