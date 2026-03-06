@@ -6,7 +6,7 @@ const NAV_LINKS = [
     { label: "Home", href: "#hero" },
     { label: "Films", href: "#films" },
     { label: "About", href: "#about" },
-    { label: "Register", href: "#register" },
+    { label: "Register", href: "https://tiqr.events/e/Kannur-University-Film-Festival-1855/t/2730/" },
 ];
 
 const Navbar: React.FC = () => {
@@ -20,6 +20,11 @@ const Navbar: React.FC = () => {
     }, []);
 
     const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+        if (!href.startsWith("#")) {
+            // External link — let the browser handle it
+            setMenuOpen(false);
+            return;
+        }
         e.preventDefault();
         setMenuOpen(false);
         const target = document.querySelector(href);
@@ -113,6 +118,7 @@ const Navbar: React.FC = () => {
                                 <a
                                     href={link.href}
                                     onClick={(e) => handleNavClick(e, link.href)}
+                                    {...(!link.href.startsWith("#") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                                     style={{
                                         textDecoration: "none",
                                         color: "#aaa",
@@ -207,6 +213,7 @@ const Navbar: React.FC = () => {
                                     <a
                                         href={link.href}
                                         onClick={(e) => handleNavClick(e, link.href)}
+                                        {...(!link.href.startsWith("#") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                                         style={{
                                             textDecoration: "none",
                                             color: "#f0f0f0",
