@@ -21,7 +21,7 @@ interface FormState {
     screenshot: File | null;
 }
 
-const UPI_URL = "upi://pay?pa=7012221534@paytm&pn=Recipient&am=50&cu=INR";
+const UPI_URL = "upi://pay?pa=aalnavinod@oksbi&pn=KUFF&am=50&cu=INR";
 
 const RegistrationForm: React.FC = () => {
     const [form, setForm] = useState<FormState>({
