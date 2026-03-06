@@ -177,7 +177,7 @@ const RegistrationForm: React.FC = () => {
                 <FieldRow icon={<User size={16} color="#f72585" />} label="Full Name" error={errors.fullName}>
                     <input
                         id="fullName" name="fullName" type="text"
-                        placeholder="e.g. Arjun Menon"
+                        placeholder="e.g. Achyuth Sahal"
                         value={form.fullName} onChange={handleChange}
                         style={inputStyle(!!errors.fullName)} autoComplete="name"
                         disabled={loading}
@@ -199,7 +199,7 @@ const RegistrationForm: React.FC = () => {
                 <FieldRow icon={<GraduationCap size={16} color="#f72585" />} label="College Name" error={errors.collegeName}>
                     <input
                         id="collegeName" name="collegeName" type="text"
-                        placeholder="e.g. Government Engineering College, Thrissur"
+                        placeholder="e.g. Kannur University, Thaliparamba"
                         value={form.collegeName} onChange={handleChange}
                         style={inputStyle(!!errors.collegeName)} autoComplete="organization"
                         disabled={loading}

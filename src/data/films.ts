@@ -222,7 +222,7 @@ export const films: Film[] = [
         location: "Screen 3",
         runtime: "169 min",
         director: "Christopher Nolan",
-        synopsis: "",
+        synopsis: "When Earth becomes uninhabitable, a farmer and ex-NASA pilot is tasked with piloting a spacecraft to find a new planet capable of sustaining human life.",
         trailerLink: "https://youtu.be/zSWdZVtXT7E?si=fRsvXRfZPW5wES-U"
     }
 ]
