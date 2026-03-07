@@ -137,7 +137,9 @@ const FilmsSection: React.FC = () => {
                         color: "#555",
                     }}
                 >
-                    More screenings will be announced soon. Stay tuned.
+                    <h1 style={{ fontSize: "1rem", fontWeight: 600, color: "#f0f0f0" }}>
+                        The KUFF organizing committee reserves the right to modify the film selection and screening schedule.*
+                    </h1>
                 </motion.p>
             </div>
         </section>

@@ -192,14 +192,14 @@ export const films: Film[] = [
 
     {
         id: 16,
-        title: "Fantastic Mr. Fox",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/a/af/Fantastic_mr_fox.jpg",
+        title: "Soul",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/3/39/Soul_%282020_film%29_poster.jpg",
         schedule: "Day 2 | Show 3",
         location: "Screen 1",
-        runtime: "87 min",
-        director: "Wes Anderson",
-        synopsis: "After years of quiet family life, a clever fox returns to his old habit of stealing from nearby farms. When the farmers retaliate, Mr. Fox must rally the animal community to outsmart them and protect their homes.",
-        trailerLink: "https://youtu.be/n2igjYFojUo?si=nN3reSinNxQv1bfA"
+        runtime: "100 min",
+        director: "Pete Docter",
+        synopsis: "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife, where he must discover what it truly means to have a soul.",
+        trailerLink: "https://youtu.be/xOsLIiBStEs"
     },
 
     {
