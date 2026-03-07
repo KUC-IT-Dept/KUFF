@@ -36,6 +36,8 @@ const Navbar: React.FC = () => {
     return (
         <>
             <header
+                role="banner"
+                aria-label="KUFF 2026 site header"
                 style={{
                     position: "fixed",
                     top: 0,
@@ -51,6 +53,7 @@ const Navbar: React.FC = () => {
                 }}
             >
                 <nav
+                    aria-label="Main navigation"
                     style={{
                         maxWidth: "1200px",
                         margin: "0 auto",
@@ -64,6 +67,7 @@ const Navbar: React.FC = () => {
                     {/* Logo */}
                     <a
                         href="#hero"
+                        aria-label="KUFF 2026 – Kannur University Film Festival homepage"
                         onClick={(e) => handleNavClick(e, "#hero")}
                         style={{
                             display: "flex",

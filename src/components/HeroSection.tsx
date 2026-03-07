@@ -120,6 +120,7 @@ const HeroSection: React.FC = () => {
     return (
         <section
             id="hero"
+            aria-labelledby="hero-heading"
             style={{
                 position: "relative",
                 minHeight: "100vh",
@@ -204,6 +205,7 @@ const HeroSection: React.FC = () => {
 
                 {/* Title */}
                 <motion.h1
+                    id="hero-heading"
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.1 }}
@@ -221,7 +223,7 @@ const HeroSection: React.FC = () => {
                 </motion.h1>
 
                 {/* Subtitle */}
-                <motion.p
+                <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
@@ -235,9 +237,9 @@ const HeroSection: React.FC = () => {
                     }}
                 >
                     March 11 &amp; 12, 2026
-                </motion.p>
+                </motion.h2>
 
-                <motion.p
+                <motion.h3
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.25 }}
@@ -250,7 +252,7 @@ const HeroSection: React.FC = () => {
                     }}
                 >
                     Mangattuparamba University Campus
-                </motion.p>
+                </motion.h3>
 
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}

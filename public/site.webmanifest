@@ -1,0 +1,38 @@
+{
+    "name": "KUFF 2026 – Kannur University Film Festival",
+    "short_name": "KUFF 2026",
+    "description": "Kerala's premier student film festival. March 11 & 12 at Mangattuparamba University Campus, Kannur.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#f72585",
+    "orientation": "portrait-primary",
+    "lang": "en-IN",
+    "categories": [
+        "entertainment",
+        "education",
+        "film festival"
+    ],
+    "icons": [
+        {
+            "src": "/logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/og-image.jpg",
+            "sizes": "1200x630",
+            "type": "image/jpeg",
+            "label": "KUFF 2026 – Kannur University Film Festival Homepage"
+        }
+    ]
+}

@@ -14,6 +14,7 @@ const AboutSection: React.FC = () => {
     return (
         <section
             id="about"
+            aria-label="About Kannur University Film Festival"
             style={{
                 position: "relative",
                 background: "var(--bg-dark)",

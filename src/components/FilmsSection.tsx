@@ -8,6 +8,7 @@ const FilmsSection: React.FC = () => {
     return (
         <section
             id="films"
+            aria-label="KUFF 2026 Official Film Selections and Screenings"
             style={{
                 position: "relative",
                 background: "var(--bg-deep)",
@@ -137,9 +138,9 @@ const FilmsSection: React.FC = () => {
                         color: "#555",
                     }}
                 >
-                    <h1 style={{ fontSize: "1rem", fontWeight: 600, color: "#f0f0f0" }}>
+                    <p style={{ fontSize: "1rem", fontWeight: 600, color: "#f0f0f0" }}>
                         The KUFF organizing committee reserves the right to modify the film selection and screening schedule.*
-                    </h1>
+                    </p>
                 </motion.p>
             </div>
         </section>

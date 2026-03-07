@@ -1,0 +1,10 @@
+# KUFF 2026 – Kannur University Film Festival
+# https://kuff.netlify.app/
+
+User-agent: *
+Allow: /
+
+# Disallow admin routes
+Disallow: /admin
+
+Sitemap: https://kuff.netlify.app/sitemap.xml
