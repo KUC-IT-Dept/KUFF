@@ -13,7 +13,7 @@ export const films: Film[] = [
     {
         id: 1,
         title: "The Voice of Hind Rajab",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/b/b5/The_Voice_of_Hind_Rajab_film_poster.jpg",
+        posterUrl: "/posters/1-the-voice-of-hind-rajab.webp",
         schedule: "Day 1 | Show 1",
         location: "Screen 1",
         runtime: "89 min",
@@ -25,7 +25,7 @@ export const films: Film[] = [
     {
         id: 2,
         title: "One Battle After Another",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/5/5d/One_Battle_After_Another.jpg",
+        posterUrl: "/posters/2-one-battle-after-another.webp",
         schedule: "Day 1 | Show 1",
         location: "Screen 2",
         runtime: "162 min",
@@ -37,7 +37,7 @@ export const films: Film[] = [
     {
         id: 3,
         title: "All We Imagine as Light",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/1/1c/All_We_Imagine_as_Light_film_poster.jpg",
+        posterUrl: "/posters/3-all-we-imagine-as-light.webp",
         schedule: "Day 1 | Show 1",
         location: "Screen 3",
         runtime: "115 min",
@@ -49,7 +49,7 @@ export const films: Film[] = [
     {
         id: 4,
         title: "Sirai",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/4/4d/Sirai_%282025_film%29.jpg",
+        posterUrl: "/posters/4-sirai.webp",
         schedule: "Day 1 | Show 2",
         location: "Screen 1",
         runtime: "124 min",
@@ -61,7 +61,7 @@ export const films: Film[] = [
     {
         id: 5,
         title: "Sinners",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/5/5f/Sinners_%282025_film%29_poster.jpg",
+        posterUrl: "/posters/5-sinners.webp",
         schedule: "Day 1 | Show 2",
         location: "Screen 2",
         runtime: "138 min",
@@ -73,7 +73,7 @@ export const films: Film[] = [
     {
         id: 6,
         title: "Sorry, Baby",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/5/5c/Sorry%2C_Baby_poster.jpg",
+        posterUrl: "/posters/6-sorry-baby.webp",
         schedule: "Day 1 | Show 2",
         location: "Screen 3",
         runtime: "114 min",
@@ -85,7 +85,7 @@ export const films: Film[] = [
     {
         id: 7,
         title: "Hijack 1971",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/8/8e/Hijack_1971.jpg",
+        posterUrl: "/posters/7-hijack-1971.webp",
         schedule: "Day 1 | Show 3",
         location: "Screen 1",
         runtime: "100 min",
@@ -97,7 +97,7 @@ export const films: Film[] = [
     {
         id: 8,
         title: "Marty Supreme",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/b/ba/Marty_Supreme_poster.jpg",
+        posterUrl: "/posters/8-marty-supreme.webp",
         schedule: "Day 1 | Show 3",
         location: "Screen 2",
         runtime: "150 min",
@@ -109,7 +109,7 @@ export const films: Film[] = [
     {
         id: 9,
         title: "Little Forest",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/a/a4/Little_Forest_%28%EB%A6%AC%ED%8B%80_%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%29.jpg",
+        posterUrl: "/posters/9-little-forest.webp",
         schedule: "Day 1 | Show 3",
         location: "Screen 3",
         runtime: "103 min",
@@ -121,7 +121,7 @@ export const films: Film[] = [
     {
         id: 10,
         title: "Flow",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/2/2d/Flow_movie_poster.jpg",
+        posterUrl: "/posters/10-flow.webp",
         schedule: "Day 2 | Show 1",
         location: "Screen 1",
         runtime: "85 min",
@@ -133,7 +133,7 @@ export const films: Film[] = [
     {
         id: 11,
         title: "It Was Just an Accident",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/8/84/Un_Simple_Accident_2025.jpeg",
+        posterUrl: "/posters/11-it-was-just-an-accident.webp",
         schedule: "Day 2 | Show 1",
         location: "Screen 2",
         runtime: "104 min",
@@ -145,7 +145,7 @@ export const films: Film[] = [
     {
         id: 12,
         title: "Rebel Ridge",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/e/e5/Rebel_Ridge_film_poster.jpg",
+        posterUrl: "/posters/12-rebel-ridge.webp",
         schedule: "Day 2 | Show 1",
         location: "Screen 3",
         runtime: "130 min",
@@ -157,7 +157,7 @@ export const films: Film[] = [
     {
         id: 13,
         title: "Zootopia 2",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/6/6a/Zootopia_2_%282025_film%29.jpg",
+        posterUrl: "/posters/13-zootopia-2.webp",
         schedule: "Day 2 | Show 2",
         location: "Screen 1",
         runtime: "108 min",
@@ -169,7 +169,7 @@ export const films: Film[] = [
     {
         id: 14,
         title: "Sirât",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/9/91/Sirat_2025.jpeg",
+        posterUrl: "/posters/14-sir-t.webp",
         schedule: "Day 2 | Show 2",
         location: "Screen 2",
         runtime: "115 min",
@@ -181,7 +181,7 @@ export const films: Film[] = [
     {
         id: 15,
         title: "T-34",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/0/0e/T-34_%28film%29.jpeg",
+        posterUrl: "/posters/15-t-34.webp",
         schedule: "Day 2 | Show 2",
         location: "Screen 3",
         runtime: "139 min",
@@ -193,7 +193,7 @@ export const films: Film[] = [
     {
         id: 16,
         title: "Soul",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/3/39/Soul_%282020_film%29_poster.jpg",
+        posterUrl: "/posters/16-soul.webp",
         schedule: "Day 2 | Show 3",
         location: "Screen 1",
         runtime: "100 min",
@@ -205,7 +205,7 @@ export const films: Film[] = [
     {
         id: 17,
         title: "Rental Family",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/c/c1/Rental_Family_poster.jpg",
+        posterUrl: "/posters/17-rental-family.webp",
         schedule: "Day 2 | Show 3",
         location: "Screen 2",
         runtime: "110 min",
@@ -217,7 +217,7 @@ export const films: Film[] = [
     {
         id: 18,
         title: "Interstellar",
-        posterUrl: "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+        posterUrl: "/posters/18-interstellar.webp",
         schedule: "Day 2 | Show 3",
         location: "Screen 3",
         runtime: "169 min",
