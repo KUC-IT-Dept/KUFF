@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Aurora from "./ui/Aurora";
 import CurvedLoop from "./ui/CurvedLoop";
 
 // ── Target: March 11, 2026 00:00:00 IST (UTC+5:30) ──
@@ -130,12 +129,28 @@ const HeroSection: React.FC = () => {
                 background: "var(--bg-deep)",
             }}
         >
-            {/* Aurora WebGL background */}
-            <Aurora
-                colorStops={["#3d0066", "#003366", "#660033"]}
-                amplitude={1.2}
-                blend={0.6}
-                speed={0.8}
+            {/* Animated Gradient Background at Top */}
+            <motion.div
+                animate={{
+                    x: ["-60%", "60%", "-60%"],
+                    y: ["-60%", "30%", "-60%"],
+                }}
+                transition={{
+                    duration: 8,
+                    ease: "easeInOut",
+                    repeat: Infinity,
+                }}
+                style={{
+                    position: "absolute",
+                    top: "-20%",
+                    left: "-10%",
+                    width: "120%",
+                    height: "80%",
+                    background: "radial-gradient(ellipse at top, rgba(255, 0, 255, 0.34) 20%, rgba(23, 38, 248, 0.26) 50%, transparent 80%)",
+                    zIndex: 0,
+                    pointerEvents: "none",
+                    filter: "blur(60px)",
+                }}
             />
 
             {/* Top vignette — protects navbar + hero text readability */}
