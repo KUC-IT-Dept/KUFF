@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink, AlertTriangle } from "lucide-react";
+import { ExternalLink, AlertTriangle, Download } from "lucide-react";
+import PostersSlider from "./PostersSlider";
+
+import brochurePdf from "../assets/𝗞𝗨𝗙𝗙 𝟮𝟬𝟮𝟲_𝗞𝗔𝗡𝗡𝗨𝗥 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗜𝗧𝗬 𝗙𝗜𝗟𝗠 𝗙𝗘𝗦𝗧𝗜𝗩𝗔𝗟_𝗠𝗔𝗥𝗖𝗛 𝟭𝟭-𝟭𝟮.pdf";
 
 const REGISTER_URL = "https://tiqr.events/e/Kannur-University-Film-Festival-1855/t/2730/";
 
@@ -17,6 +20,20 @@ const RegistrationForm: React.FC = () => {
                 <p style={eyebrow}>KUFF 2026</p>
                 <h2 style={sectionTitle}>Register Now</h2>
                 <p style={subtitle}>Secure your spot at Kerala's premier student film festival.</p>
+
+                <div style={{ width: "100%", marginBottom: "1.75rem" }}>
+                    <PostersSlider />
+                </div>
+
+                <a
+                    href={brochurePdf}
+                    download
+                    style={brochureLink}
+                    aria-label="Download KUFF brochure (PDF)"
+                >
+                    <Download size={18} />
+                    Download Brochure
+                </a>
 
                 <div style={warningBanner}>
                     <AlertTriangle size={18} color="#fbbf24" style={{ flexShrink: 0, marginTop: "2px" }} />
@@ -117,6 +134,24 @@ const registerBtn: React.CSSProperties = {
     letterSpacing: "0.05em",
     boxShadow: "0 0 20px rgba(247,37,133,0.4)",
     transition: "box-shadow 0.2s",
+    cursor: "pointer",
+};
+
+const brochureLink: React.CSSProperties = {
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "0.5rem",
+    padding: "0.75rem 1.15rem",
+    borderRadius: "12px",
+    border: "1px solid rgba(255,255,255,0.12)",
+    background: "rgba(255,255,255,0.04)",
+    color: "#f0f0f0",
+    textDecoration: "none",
+    fontFamily: "'Space Grotesk', sans-serif",
+    fontWeight: 600,
+    letterSpacing: "0.02em",
+    marginBottom: "1.5rem",
     cursor: "pointer",
 };
 
